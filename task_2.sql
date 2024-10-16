@@ -1,14 +1,14 @@
---Таблица с продуктами имеет название Products. Ее колонки:
---	Id - Ид продукта
---	Name - Название продукта
+-- The table with products is named Products. Its columns:
+--    Id - Product ID
+--    Name - Product Name
 
---Таблица с категориями имеет название Categories. Ее колонки:
---	Id - Ид категории
---	Name - Название категории
+-- The table with categories is named Categories. Its columns:
+--    Id - Category ID
+--    Name - Category Name
 
--- Связывающая таблица - ProductsCategories. Ее колонки:
---	ProductId - Ид продукта
---	CategoryId - Ид категории
+-- The linking table is ProductsCategories. Its columns:
+--    ProductId - Product ID
+--    CategoryId - Category ID
 
 
 SELECT p."Name" as "ProductName", c."Name" as "CategoryName" FROM "Products" AS p
